@@ -1,0 +1,16 @@
+#ft
+{
+	width:960px;
+	height:50px;
+	margin:20px auto;
+	/*background-color:blue;*/
+	text-align:center;
+	line-height:50px;
+	color:rgb(220,252,251);
+	font-weight:bold;
+}
+#ft>a{
+	list-style:none;
+	text-decoration:none;
+	color:rgb(252,47,0);
+}

@@ -1,0 +1,228 @@
+#content>#slideshow{
+    
+	width:940px;
+    height:650px;
+    position:relative;
+	float:right;
+    /*background-color:rgba(160,160,160,1);
+    overflow: hidden;*/
+}
+#content>#slideshow>#slider{
+    
+	width:940px;
+    height:580px;
+    margin-bottom:0px;
+    position:absolute;
+    /*background-color:rgba(160,160,160,1);
+    overflow: hidden;*/
+}
+/*#slider:hover>#control{
+    bottom: 0px;
+    opacity: 1;
+}
+#slider:hover>#control{
+	width:910px;
+    height:35px;
+}*/
+
+#slider>#next{
+    position: absolute;
+    z-index: 9999999;
+    width: 30px;
+    height: 30px;
+    top: 275px;
+    right:15px;
+    opacity: 0;
+    background-image: url(../images/next.png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: all .5s linear;
+    /*isin or isout or linear*/
+    border-radius: 50%;
+    transform:rotate(0deg);
+}
+#slider>#prev{
+    position: absolute;
+    z-index: 99999999;
+    width: 30px;
+    height: 30px;
+    top: 275px;
+    left:15px;
+    opacity: 0;
+    background-image: url(../images/prev.png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all .5s linear;
+	transform:rotate(0deg);
+}
+#slider:hover>#next{
+    /*right:15px;*/
+    opacity: 1;
+    transform:rotate(360deg);
+}
+#slider:hover>#prev{
+    /*right:15px;*/
+    opacity: 1;
+    transform:rotate(360deg);
+}
+/*
+#slider>#next:hover{
+    opacity: 1;
+    box-shadow: 0 0 8px 2px #fff;
+}
+#slider>#prev:hover{
+    opacity: 1;
+    box-shadow: 0 0 8px 2px #fff;
+}*/
+
+#slider>div{
+    width:940px;
+    height:580px;
+    position:absolute;
+    right:0;
+    top:0;
+    /*background-color:rgba(0,0,200,.4);*/
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    /*transition: opacity 500ms linear;*/
+}
+#slider>#slide1{
+    background-image: url("../images/slide1.jpg");
+	
+    z-index: 2;
+    opacity: 1;
+}
+#slider>#slide2{
+    background-image: url("../images/slide2.jpg");
+	/*background-size:950px;
+	background-repeat:no-repeat;*/
+	
+}
+#slider>#slide3{
+    background-image: url("../images/slide3.jpg");
+}
+#slider>#slide4{
+    background-image: url("../images/slide4.jpg");
+}
+
+#slider>#control{
+    position: absolute;
+    /*margin-bottom:0px;*/
+    width: 940px;
+    height: 70px;
+    /*background-color:red;*/
+    z-index: 99999999;
+	opacity:.4;
+    /*transition: all .7s linear;
+	top:580px;*/
+   
+}
+#slider>#control>#tom{
+    
+	position: absolute;
+    width: 120px;
+    height: 30px;
+    top: 620px;
+	/*bottom:50px;*/
+    left: 410px;
+	/*overflow:hidden;*/
+    /*background-color: yellow;*/
+	
+}
+/*#thumbs>div{
+    position:absolute;
+    right:0;
+    top:0;
+	width: 120px;
+    height: 30px;
+    /*background-color: rgba(255,0,0,.4);
+
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    opacity: .9;
+    transition: all .7s linear;
+}
+#thumbs>div:hover{
+    opacity: 1;
+    box-shadow: 1px 2px 0px #000;
+}*/
+#slider>#control>#tom>span{
+    width: 30px;
+    height: 30px;
+    /*background-color: rgba(255,0,0,.4);*/
+    float: left;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    opacity: .0;
+    transition: all .7s linear;
+}
+#slider>#control>#tom>span:hover{
+    opacity: 0;
+    box-shadow: 1px 2px 0px #000;
+}
+#tom>#tom1{
+    background-image: url("../images/slide1.jpg");
+    z-index: 2;
+    opacity: 1;
+}
+#tom>#tom2{
+	background-image: url("../images/slide2.jpg");
+}
+#tom>#tom3{
+    background-image: url("../images/slide3.jpg");
+}
+#tom>#tom4{
+    background-image: url("../images/slide4.jpg");
+}
+
+#thumbs{
+    
+	position: absolute;
+    width: 120px;
+    height: 30px;
+    top:620px;
+	bottom:0px;
+    left: 410px;
+	overflow:hidden;
+    /*background-color: rgba(50,50,50,.6);*/
+	
+}
+#thumbs>div{
+    position:absolute;
+    right:0;
+    top:0;
+	width: 120px;
+    height: 30px;
+    /*background-color: rgba(255,0,0,.4);
+
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    opacity: .9;
+    transition: all .7s linear;
+}
+#thumbs>div:hover{
+    opacity: 1;
+    box-shadow: 1px 2px 0px #000;
+}*/
+}
+#thumbs>#thumb1{
+    background-image: url("../images/bar1.png");
+    z-index: 3;
+    opacity: 1;
+}
+#thumbs>#thumb2{
+    background-image: url("../images/bar2.png");
+}
+#thumbs>#thumb3{
+    background-image: url("../images/bar3.png");
+}
+#thumbs>#thumb4{
+    background-image: url("../images/bar4.png");
+}

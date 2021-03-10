@@ -1,0 +1,55 @@
+#main-head
+{
+	width:960px;
+	height:250px;
+	margin:5px auto 20px auto;
+	/*background-color:red;*/
+}
+#main-head>#logo
+{
+	width:320px;
+	height:250px;
+	margin-left:5px;
+	/*background-color:silver;*/
+	float:right;
+}
+#main-head>#logo>#lang
+{
+	width:320px;
+	height:50px;
+	margin-bottom:20px;
+	/*background-color:pink;*/
+	float:right;
+}
+#main-head>#logo>#empty1
+{
+	width:320px;
+	height:180px;	
+	/*background-color:purple;*/
+	float:right;
+}
+#main-head>#banner
+{
+	width:635px;
+	height:250px;
+	/*background-color:blue;*/
+}
+#main-head>#banner>#empty2
+{
+	width:635px;
+	height:50px;
+	margin-bottom:20px;
+	/*background-color:lightblue;*/
+	background-image:url(../images/bottom.png);
+	float:right;
+}
+#main-head>#banner>#name
+{
+	width:635px;
+	height:180px;
+	/*background-color:yellow;*/
+	background-image:url(../images/2.png);
+	background-size:500px;
+	background-repeat:no-repeat;
+	float:right;
+}

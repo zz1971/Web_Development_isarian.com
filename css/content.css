@@ -1,0 +1,19 @@
+#content {
+  width: 960px;
+  height: 720px;
+  margin: 0px auto 0px auto;
+  /*background-color:yellow;*/
+}
+#content > #emptyright {
+  width: 5px;
+  height: 650px;
+  margin-left: 5px;
+  /*background-color:green;*/
+  float: right;
+}
+#content > #emptyleft {
+  width: 5px;
+  height: 650px;
+  margin-right: 5px;
+  /*background-color:silver;*/
+}

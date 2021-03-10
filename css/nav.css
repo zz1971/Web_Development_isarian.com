@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Veteran Typewriter';
+  src: url('../fonts/Veteran Typewriter.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/Veteran Typewriter.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/Veteran Typewriter.ttf') format('truetype'),  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+	   url('../fonts/Veteran Typewriter.svg#Veteran Typewriter') format('svg'),/* Legacy iOS */
+	   url('../fonts/Veteran Typewriter.otf') format('opentype'); 
+}
+#content>#main-menu
+{
+	width:960px;
+	height:40px;
+	margin-bottom:30px;
+	/*background-color:orange;*/
+	
+}
+#main-menu>ul{
+	list-style:none;
+}
+#main-menu>ul>li{
+	float:right;
+}
+#content>#main-menu>ul>li>a{
+	display:block;
+	width:137.14px;
+	height:40px;
+	text-decoration:none;
+	line-height:40px;
+	text-align:center;
+	border-radius:7px;
+	box-shadow:0px 0px 5px #aaa inset;
+	background-color:rgba(40,40,40,.5);
+	color:rgb(252,47,0);
+	font-size:17.5px;
+	font-weight:bold;
+	font-family:veteran typewriter;	
+}
+#content>#main-menu>ul>li>a:hover{
+	/*box-shadow:0px 0px 7px rgb(234,254,253) inset;
+	box-shadow:0px 0px 7px rgb(234,254,253) inset,1px 1px 5px rgb(234,254,253),-1px -1px 5px rgb(234,254,253);
+	color:rgb(252,47,0);
+	color:rgb(234,254,253);
+	color:rgb(228,254,255);*/
+	color:rgb(214,255,255);
+	
+}
+#content>#main-menu>ul>li>.default{
+	color:rgb(246,246,246);
+}
+.Nodefault{
+	color:rgb(252,47,0);
+}
